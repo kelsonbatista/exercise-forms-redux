@@ -1,0 +1,23 @@
+.personal, .professional, .display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3vh auto;
+  width: 40vw;
+}
+
+.personal label, .professional label {
+  margin-bottom: 20px;
+}
+
+.personal input, .professional input {
+  height: 25px;
+  width: 100%;
+}
+
+.personal button, .professional button {
+  align-self: center;
+  margin: 10px 0;
+  padding: 7px;
+  width: 30%;
+}
